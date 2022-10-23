@@ -2,7 +2,7 @@
   "name": "leanfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ian-tapply.me",
+  "homepage": "https://ian-tapply.me/Portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
