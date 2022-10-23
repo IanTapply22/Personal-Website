@@ -32,7 +32,7 @@ const projects = [
     thumbnail: 'images/react.png',
     name: 'Stats React Web Application',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'The pairing that goes along with the REST API! Easily create teams, stats, and even update things.',
     ],
     stack: ['JavaScript', 'React', 'CSS', 'Typescript'],
     sourceCode: 'https://github.com',
