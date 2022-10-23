@@ -1,17 +1,18 @@
 const about = {
   // all the properties are optional - can be left empty or deleted
   // each element in the description array is a paragraph
-  name: 'Ian Tapply',
-  role: 'Proficient Developer',
-  company: '',
+  name: 'John Doe',
+  role: 'Software Engineer',
+  company: 'Acme Labs',
   description: [
-    'I have LOTS of developer experience! I am experienced with backend, front-end, and other frameworks. I am experience with Java, C++, C#, JavaScript, Golang, Rust, and various other languages. I hope to expand my knowledge with coding and always try new things.',
+    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
   ],
-  //resume: 'https://example.com',
+  resume: 'https://example.com',
   social: {
-    github: 'https://github.com/IanTapply22',
+    linkedin: 'https://linkedin.com',
+    github: 'https://github.com',
   },
-  greetingEmoji: '👨‍💻',
+  greetingEmoji: '👋',
 }
 
 const projects = [
@@ -19,22 +20,42 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
-    thumbnail: 'images/simbotics.png',
-    name: '1114 Rest API',
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Project 1',
     description: [
-      'Used to track stats, create stats, make teams, and more!',
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     ],
-    stack: ['Java', 'Firebase', 'Lombok'],
-    sourceCode: 'https://github.com/IanTapply22/1114-Stats-API',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    thumbnail: 'images/react.png',
-    name: 'Stats React Web Application',
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Project 2',
     description: [
-      'The pairing that goes along with the REST API! Easily create teams, stats, and even update things.',
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     ],
-    stack: ['JavaScript', 'React', 'CSS', 'Typescript'],
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Project 3',
+    description: [
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    ],
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'Project 4',
+    description: [
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    ],
+    stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -48,19 +69,18 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Golang',
-  'Rust',
-  'C#',
-  'C++',
+  'Redux',
+  'SASS',
+  'Material UI',
   'Git',
-  'Java',
-  'Python',
-  'Ruby',
+  'CI/CD',
+  'Jest',
+  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'contact@ian-tapply.me',
+  email: 'johndoe@mail.com',
 }
 
 export { about, projects, skills, contact }
