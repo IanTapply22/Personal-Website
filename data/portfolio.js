@@ -21,12 +21,12 @@ const projects = [
   // each element in the description array is a paragraph
   {
     thumbnail: 'images/portfolio.png',
-    name: 'Personal Portfolio',
+    name: 'Personal Website',
     description: [
-      'This portfolio website! It will be periodically updated throughout my life.',
+      'This website! It will be periodically updated throughout my life.',
     ],
     stack: ['React', 'Next.js', 'JavaScript', 'MUI'],
-    sourceCode: 'https://github.com/IanTapply22/Portfolio',
+    sourceCode: 'https://github.com/IanTapply22/Personal-Website',
     livePreview: 'https://www.ian-tapply.me',
   },
   {
