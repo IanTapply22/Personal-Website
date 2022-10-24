@@ -2,6 +2,7 @@ import uniqid from 'uniqid'
 import Hyphenated from 'react-hyphen'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import InstagramIcon from '@material-ui/icons/Instagram';
 import { about } from '../data/portfolio'
 
 const About = () => {
@@ -79,6 +80,18 @@ const About = () => {
                   className='link link--icon'
                 >
                   <LinkedInIcon />
+                </a>
+              )}
+
+              {social.instagram && (
+                <a
+                  href={social.instagram}
+                  target='_blank'
+                  rel='noreferrer'
+                  aria-label='instagram'
+                  className='link link--icon'
+                >
+                  <InstagramIcon />
                 </a>
               )}
             </>
