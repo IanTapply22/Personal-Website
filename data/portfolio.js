@@ -33,9 +33,9 @@ const projects = [
     thumbnail: 'images/simbotics.png',
     name: '1114 Stats API',
     description: [
-      'A stats API made with Spring-Boot that tracks stats for the blue alliance team #1114.',
+      'A stats API made with Spring Boot that tracks stats for the blue alliance team #1114.',
     ],
-    stack: ['Java', 'Spring-Boot', 'Maven', 'Lombok'],
+    stack: ['Java', 'Spring', 'Maven', 'Lombok'],
     sourceCode: 'https://github.com/IanTapply22/1114-Stats-API',
     livePreview: 'https://api.ian-tapply.me',
   },
@@ -48,6 +48,26 @@ const projects = [
     stack: ['Axios', 'JavaScript', 'React'],
     sourceCode: 'https://github.com/IanTapply22/1114-Stats-React',
     livePreview: 'https://stats-dev.ian-tapply.me',
+  },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'ScoutingPlatformAPI',
+    description: [
+      'An API used for ease of use when creating scouting data for FRC competitions. Commonly integrated in a vuejs or react app.',
+    ],
+    stack: ['Spring', 'Java', 'Maven', 'Lombok'],
+    sourceCode: 'https://github.com/IanTapply22/ScoutingPlatformAPI',
+    livePreview: 'https://scouting.ian-tapply.me',
+  },
+  {
+    thumbnail: 'images/placeholder-image.jpeg',
+    name: 'ScoutingPlatform',
+    description: [
+      'The front-end code for the implementation of the ScoutingPlatformAPI. Implemented with Vue and ViteJS.',
+    ],
+    stack: ['ViteJS', 'VueJS'],
+    sourceCode: 'https://github.com/IanTapply22/ScoutingPlatform',
+    livePreview: 'https://scouting-platform.ian-tapply.me',
   },
 ]
 
